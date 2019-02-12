@@ -13,7 +13,7 @@ require "spec_helper"
     expect(song.artist).to eq(artist)
   end
 
-   it "knows the name of the artist it belongs to" do 
+   it "knows the name of the artist it belongs to" do
     artist = Artist.new
     artist.name = "Beyonce"
     song.artist = artist
